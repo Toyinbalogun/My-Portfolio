@@ -5,13 +5,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oluwatoyin Balogun Portfolio</title>
     <link rel="stylesheet" href="css/style .css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    <link rel="stylesheet" href="css/animate.css" />
+   
 </head>
 <body>
-    <div class="container navbar navbar-expand-sm"></div>
-    
+    <div class="container navbar navbar-expand-sm">
+        <header>
+            <div class="logo">
+                <h1>Oluwatoyin Balogun</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#work">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
 
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <!-- Hi, I'm Oluwatoyin(Ty), Full Stack Developer -->
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">O</span>
+                <span class="m-left name">l</span>
+                <span class="m-left name">u</span>
+                <span class="m-left name">w</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">t</span>
+                <span class="m-left name">o</span>
+                <span class="m-left name">y</span>
+                <span class="m-left name">i</span>
+                <span class="m-left name">n</span>
+                <span class="m-left name">(</span>
+                <span class="m-left name">T</span>
+                <span class="m-left name">y</span>
+                <span class="m-left name">)</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>F</span>
+                <span class="m-left">u</span>
+                <span class="m-left">l</span>
+                <span class="m-left">l</span>
+                <span>S</span>
+                <span class="m-left">t</span>
+                <span class="m-left">a</span>
+                <span class="m-left">c</span>
+                <span class="m-left">k</span>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">v</span>
+                <span class="m-left">e</span>
+                <span class="m-left">l</span>
+                <span class="m-left">o</span>
+                <span class="m-left">p</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+            </h1>
+            <p>HTML / CSS / JavaScript / React</p>
+            <a href="#contact">Contact Me</a>
+        </div>
+        
+        <div class="profile-image">
+            <img src="https://skywell.software/wp-content/uploads/2018/12/web-development-1024x605.jpg" alt="picture of a computer">
+        </div>
+
+        <div class="container about" id="about">
+            <h1>About</h1>
+            <div class="about-me-info">
+                Full Stack Web Developer pursuing a Bachelor of Science degree in Computer Science at Carlenton Universty. Solidly skilled in most areas of programing 
+                including Java, Python, C, C++ and in web design specifically HTML, CSS, JavaScript, React and others. Enthusiastic leaner with self-directed and curiosity-driven appetency for
+                problem solving, creating, designing and improving. <br>
+                When I am not coding or researching, I spend my time playingand discovering new video games, camping and enjoying food outdoors. Thanks for visiting my portfolio website.
+                Kindly feel free to contact me and also check out my cool projects, Github, LinkedIn and Resume.
+            </div>
+            <img src="img/dotted-shape.png" alt="dotted lines">
+        </div>
+
+        <div class="container skills" id="skills">
+            <h1>Skills</h1>
+            <p class="skills-info">Tools and Technologies:</p>
+            <div class="tag-html">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-html"></div>
+            </div>
+            <div class="tag-css">
+                <p>CSS</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-css"></div>
+            </div>
+            <div class="tag-javascript">
+                <p>JAVASCRIPT</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-javascript"></div>
+            </div>
+            <div class="tag-react">
+                <p>REACT</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-react"></div>
+            </div>
+        </div>
+
+        <div class="container work" id="work">
+            <h1>Projects</h1>
+            <div class="projects">
+                <a href=""><img src="img/1.png"></a>
+                <a href=""><img src="img/2.png"></a>
+                <a href=""><img src="img/3.png"></a>
+                <a href=""><img src="img/4.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container contact" id="contact">
+        <h1>Contact</h1>
+        <form>
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="email" placeholder="email">
+            <input type="email" placeholder="example@email.com" disabled>
+            <textarea name="message" cols="30" rows="10" placeholder="Leave a Message"></textarea>
+            <input type="submit">
+
+        </form>
+    </div>
+
+    <footer>
+        <hr>
+        <p>2020 Copyright. All Rights Reserved</p>
+    </footer>
+    
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
