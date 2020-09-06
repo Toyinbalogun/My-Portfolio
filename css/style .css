@@ -9,6 +9,12 @@ html{
     scroll-behavior: smooth;
 }
 
+.info-message{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
 .container{
     padding: 0 100px 0 100px;
 }
